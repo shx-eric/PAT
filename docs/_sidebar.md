@@ -1,0 +1,6 @@
+* 用户手册3.7.4(LTS)
+    * [关于PAT](zh-cn/introduce)
+    * [版本更新](zh-cn/upgrade_doc)
+    * [快速开始](zh-cn/start)
+    * [功能](zh-cn/feature)
+    * [示例](zh-cn/examples)
