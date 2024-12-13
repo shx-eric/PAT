@@ -70,6 +70,10 @@ PAT封装了试玩制作中高频使用的功能模块，例如Bingo游戏的报
 - BingoCardFrame：Bingo卡的UI和控制脚本，支持多卡
 - BingoCardItem：Bingo卡的元素UI和控制脚本，包含了卡片的交互逻辑
 - bingo_rotate_logo：一个通用的旋转地球 + Logo的效果
+## Wheel常用组件
+转盘常用组件：转盘+转盘item，一个转盘抽卡的功能，常用于BINGO</br>
+资源路径：template/prefabs/wheel</br>
+
 ## Slot常用组件
 - slot_frame：slot机台UI和控制脚本
 - slot_item：slot机台元素和控制脚本
@@ -77,13 +81,13 @@ PAT封装了试玩制作中高频使用的功能模块，例如Bingo游戏的报
 - slot_money_group:一组可以滚动的数字（奖金）UI和控制脚本
 
 ## Wsp常用组件
-通用组件是指适用于各品类游戏的组件。
+待补充...
 ## MTS常用组件
-通用组件是指适用于各品类游戏的组件。
+待补充...
 ## MTD常用组件
-通用组件是指适用于各品类游戏的组件。
+待补充...
 ## MMR常用组件
-通用组件是指适用于各品类游戏的组件。
+待补充...
 ## 代码块
 ### 多分辨率适配
 AdaptCtrl.ts，控制屏幕和屏幕元素的适配，无需添加，默认挂载在adaptCtrl节点上</br>
