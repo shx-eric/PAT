@@ -8,7 +8,7 @@ PAT封装了试玩制作中高频使用的功能模块，例如Bingo游戏的报
 - file path:艺术字体的资源路径，该资源为动态加载的资源，所以需要放在resources目录下。
 - pre num:单个字体的预制
 - 要显示的字体（数字）
-- 是否有特殊字符：如果有ts的特殊字符，勾选该选项后可把特殊字符替换成其他不冲突的字符
+- 是否有特殊字符：如果有ts的特殊字符，勾选该选项后可把特殊字符替换成其他不冲突的字符</br>
 📝备注：</b>
 1.由于该组件是简单的脚本驱动，要求字体图片等宽高</br>
 2.该组件是位图字体应用的备选方式，如果对合批无高要求使用位图字体更方便
@@ -52,9 +52,12 @@ PAT封装了试玩制作中高频使用的功能模块，例如Bingo游戏的报
 ### 落叶效果
 一个飘落叶的效果（MTS|BINGO等高频使用）</br>
 资源路径：template/prefabs/particle_effs/leaf_eff</br>
-### 落叶效果
+### 落雨效果
 一个落雨的效果，用于下雨天场景</br>
 资源路径：template/prefabs/particle_effs/rain_eff</br>
+### 飘雪效果
+一个飘雪的效果</br>
+资源路径：template/prefabs/particle_effs/snow</br>
 ### 喷彩带效果caidai1
 一个可满足从屏幕左右两边喷出彩带的效果</br>
 资源路径：template/prefabs/particle_effs/caidai1</br>

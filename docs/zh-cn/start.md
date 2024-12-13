@@ -1,6 +1,9 @@
 # 快速开始
+
+## 创建项目
+PlayAble-Example2D-3.7.4已添加到CocosDashBoard,打开dashBoard后新建项目</br>
+![alt text](image-11.png)
 ## 模版目录结构
-拷贝一份PlayAble-Example2D-3.7.4</br>
 新建项目的目录结构如下：</br>
 ![alt text](image-1.png)</br>
 - res:资源目录
