@@ -75,10 +75,18 @@ PAT封装了试玩制作中高频使用的功能模块，例如Bingo游戏的报
 资源路径：template/prefabs/wheel</br>
 
 ## Slot常用组件
+{
 - slot_frame：slot机台UI和控制脚本
 - slot_item：slot机台元素和控制脚本
 - slot_list:slot_item的容器
 - slot_money_group:一组可以滚动的数字（奖金）UI和控制脚本
+}
+
+移除旧有slot组件，添加了新的slot组件类型支持（命名为slot-new）。优化了slot分组显示，优化了slot的效果，可视化编辑slot的加速、减速、回弹效果，增加了slot的转动效果多样化；增加了slot的流畅度，流程更自然。
+- slot_frame:slot_frame:slot机台UI和控制脚本
+- slot_list:控制移动（块）的逻辑
+- list_block：移动块
+- slot_item:slot机台元素和控制脚本
 
 ## Wsp常用组件
 待补充...
@@ -126,6 +134,7 @@ Utils</br>
 - NumScrolling：滚动数字效果，拖拽到目标节点上会有一个数字滚动的效果，在slot游戏中经常使用。支持可视化编辑参数。
 - PlayableConfig：PlayableConfig
 - Utils：常用算法，如：格式化数字、贝塞尔曲线、三角函数算法等
+封装了屏幕震动、闹钟震动等震动效果的通用方法。
 
 ## animations
 - breath_clip:一个可循环的呼吸动画
